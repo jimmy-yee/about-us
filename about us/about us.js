@@ -107,15 +107,30 @@ function mouse_in_6(){
    
 }
 
-// function mouse_in_news(){
-//     var news = img_news;
-//     news.setAttribute('src','picture/news');
-// }
+function mouse_in_news(){
+    var news = img_news;
+    news.setAttribute('src','picture/news.png');
+}
 
-// function mouse_out_news(){
-//     var news = img_news;
-//     news.setAttribute('src','picture/un_news');
-// }
+function mouse_in_equipment(){
+    var equipment = img_equipment;
+    equipment.setAttribute('src','picture/equipment.png');
+
+}
+function mouse_in_together(){
+    var together = img_together;
+    together.setAttribute('src','picture/together.png');
+
+}
+function mouse_in_connect(){
+    var connect = img_connect;
+    connect.setAttribute('src','picture/connect us.png');
+}
+
+function mouse_out_news(){
+    var news = img_news;
+    news.setAttribute('src','picture/un-news.png');
+}
 
 function mouse_out_1(){
     var arrow = document.querySelector(".arrow_1");
@@ -265,3 +280,7 @@ img_genius_5.addEventListener('mouseleave',mouse_out_5);
 img_genius_6.addEventListener('mouseleave',mouse_out_6);
 
 img_news.addEventListener('mouseenter' ,mouse_in_news);
+img_equipment.addEventListener('mouseenter', mouse_in_equipment);
+img_together.addEventListener('mouseenter', mouse_in_together);
+img_connect.addEventListener('mouseenter', mouse_in_connect);
+img_news.addEventListener('mouseleave' ,mouse_out_news);
