@@ -219,6 +219,8 @@ function mouse_out_click(){
     // find_now.setAttribute('src','picture/un-find now.png');
     // genius_6.setAttribute('width','15%');
     // genius_6.setAttribute('height','15%');
+    document.body.scrollTop = 2000; // For Safari
+    document.documentElement.scrollTop = 2000; // For Chrome, Firefox, IE and Opera
 }
    
 // Get the button:
