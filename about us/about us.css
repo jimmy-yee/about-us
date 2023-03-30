@@ -123,44 +123,74 @@ body{
   position: absolute;
   top: 57.5%;
   left:1.5% ;
-  width: 15%;
-  height: 14%;
+  /* width: 15%;
+  height: 14%; */
 }
 .genius_2{
   position: absolute;
   top: 57.5%;
   left:17.5% ;
-  width: 15%;
-  height: 14%;
+  /* width: 15%;
+  height: 14%; */
 }
 .genius_3{
   position: absolute;
   top: 57.5%;
   left:33.5% ;
-  width: 15%;
-  height: 14%;
+  /* width: 15%;
+  height: 14%; */
 }
 .genius_4{
   position: absolute;
   top: 57.5%;
   left:49.5% ;
-  width: 15%;
-  height: 14%;
+  /* width: 15%;
+  height: 14%; */
 }
 .genius_5{
   position: absolute;
   top: 57.5%;
   left:65.5% ;
-  width: 15%;
-  height: 14%;
+  /* width: 15%;
+  height: 14%; */
 }
 .genius_6{
   position: absolute;
   top: 57.5%;
   left:81.5% ;
-  width: 15%;
-  height: 14%;
+  /* width: 15%;
+  height: 14%; */
 }
+
+.self_1{
+  position: absolute;
+  top: 57.3%;
+  left:1.4% ;
+  width: 15%;
+  height: 13%;
+}
+.self_2{
+  position: absolute;
+  top: 57.3%;
+  left:16% ;
+  width: 17.5%;
+  height: 12.5%;
+}
+.self_3{
+  position: absolute;
+  top: 57.3%;
+  left:33.5% ;
+  width: 15%;
+  height: 12.5%;
+}
+.self_4{
+  position: absolute;
+  top: 57.3%;
+  left: 47.5% ;
+  width: 16%;
+  height: 12.5%;
+}
+
 
 
 
@@ -207,4 +237,48 @@ body{
   left: 86.5%;
   width:5%;
   height:3%;
+}
+
+/* 名字 */
+.name_1{
+  position: absolute;
+  top: 84%;
+  left: 3.3%;
+  width: 11.25%;
+  height: 5.75%;
+}
+.name_2{
+  position: absolute;
+  top: 84%;
+  left: 19.5%;
+  width: 11.25%;
+  height: 5.75%;
+}
+.name_3{
+  position: absolute;
+  top: 84%;
+  left: 35.7%;
+  width: 11.25%;
+  height: 5.75%;
+}
+.name_4{
+  position: absolute;
+  top: 84%;
+  left: 51.9%;
+  width: 11.25%;
+  height: 5.75%;
+}
+.name_5{
+  position: absolute;
+  top: 84%;
+  left: 68.1%;
+  width: 11.25%;
+  height: 5.75%;
+}
+.name_6{
+  position: absolute;
+  top: 84%;
+  left: 84.2%;
+  width: 11.25%;
+  height: 5.75%;
 }
