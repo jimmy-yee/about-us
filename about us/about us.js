@@ -259,6 +259,11 @@ function mouse_out_click(){
     document.body.scrollTop = 2000; // For Safari
     document.documentElement.scrollTop = 2000; // For Chrome, Firefox, IE and Opera
 }
+
+function mouse_aboutus_click(){
+    document.body.scrollTop = 2000; // For Safari
+    document.documentElement.scrollTop = 2000; // For Chrome, Firefox, IE and Opera
+}
    
 // Get the button:
 let mybutton = document.getElementById("myBtn");
@@ -296,6 +301,7 @@ img_genius_5.addEventListener('mouseleave',mouse_out_5);
 img_genius_6.addEventListener('mouseleave',mouse_out_6);
 img_findNow.addEventListener('mouseleave',mouse_out_findNow);
 img_findNow.addEventListener('click',mouse_out_click);
+img_about_us.addEventListener('click',mouse_aboutus_click);
 
 img_news.addEventListener('mouseenter' ,mouse_in_news);
 img_equipment.addEventListener('mouseenter', mouse_in_equipment);
