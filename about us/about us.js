@@ -218,6 +218,38 @@ function mouse_out_6(){
 
 }
 
+function mouse_out_findNow(){
+    var find_now = img_findNow;
+    find_now.setAttribute('src','picture/un-find now.png');
+}
+
+function mouse_out_click(){
+    // var find_now = img_findNow;
+    // find_now.setAttribute('src','picture/un-find now.png');
+    // genius_6.setAttribute('width','15%');
+    // genius_6.setAttribute('height','15%');
+}
+   
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
 img_genius_1.addEventListener('mouseenter',mouse_in_1);
 img_genius_2.addEventListener('mouseenter',mouse_in_2);
 img_genius_3.addEventListener('mouseenter',mouse_in_3);
