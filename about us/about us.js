@@ -21,8 +21,8 @@ function mouse_in_1() {
     genius_1.setAttribute('src', 'picture/Self1.png');
     genius_1.setAttribute('width', '15%');
     genius_1.setAttribute('height', '13%');
-
-
+   
+   
 }
 
 function mouse_in_2() {
@@ -38,7 +38,7 @@ function mouse_in_2() {
     genius_2.setAttribute('src', 'picture/Self2.png');
     genius_2.setAttribute('width', '15%');
     genius_2.setAttribute('height', '13%');
-
+   
 }
 
 function mouse_in_3() {
@@ -54,7 +54,7 @@ function mouse_in_3() {
     genius_3.setAttribute('src', 'picture/Self3.png');
     genius_3.setAttribute('width', '15%');
     genius_3.setAttribute('height', '13%');
-
+   
 }
 
 function mouse_in_4() {
@@ -70,7 +70,7 @@ function mouse_in_4() {
     genius_4.setAttribute('src', 'picture/Self4.png');
     genius_4.setAttribute('width', '15%');
     genius_4.setAttribute('height', '13%');
-
+   
 }
 function mouse_in_5() {
     var arrow_5 = document.querySelector(".arrow_5");
@@ -85,7 +85,7 @@ function mouse_in_5() {
     genius_5.setAttribute('src', 'picture/Self5.png');
     genius_5.setAttribute('width', '15%');
     genius_5.setAttribute('height', '13%');
-
+   
 }
 function mouse_in_6() {
     var arrow_6 = document.querySelector(".arrow_6");
@@ -100,15 +100,12 @@ function mouse_in_6() {
     genius_6.setAttribute('src', 'picture/Self6.png');
     genius_6.setAttribute('width', '15%');
     genius_6.setAttribute('height', '13%');
-
+   
 }
 
 function mouse_in_findNow(){
     var find_now = img_findNow;
     find_now.setAttribute('src','picture/find now.png');
-    // find_now.setAttribute('width','15%');
-    // find_now.setAttribute('height','13%');
-
 }
 
 function mouse_out_1(){
@@ -124,7 +121,7 @@ function mouse_out_1(){
     genius_1.setAttribute('src', 'picture/ginius1.png');
     genius_1.setAttribute('width', '15%');
     genius_1.setAttribute('height', '15%');
-
+    
 
 }
 function mouse_out_2() {
@@ -140,7 +137,7 @@ function mouse_out_2() {
     genius_2.setAttribute('src', 'picture/ginius2.png');
     genius_2.setAttribute('width', '15%');
     genius_2.setAttribute('height', '15%');
-
+   
 
 }
 
@@ -157,7 +154,7 @@ function mouse_out_3() {
     genius_3.setAttribute('src', 'picture/ginius3.png');
     genius_3.setAttribute('width', '15%');
     genius_3.setAttribute('height', '15%');
-
+   
 
 }
 
@@ -174,7 +171,7 @@ function mouse_out_4() {
     genius_4.setAttribute('src', 'picture/ginius4.png');
     genius_4.setAttribute('width', '15%');
     genius_4.setAttribute('height', '15%');
-
+   
 
 }
 
@@ -191,7 +188,7 @@ function mouse_out_5() {
     genius_5.setAttribute('src', 'picture/ginius5.png');
     genius_5.setAttribute('width', '15%');
     genius_5.setAttribute('height', '15%');
-
+   
 
 }
 
@@ -208,24 +205,22 @@ function mouse_out_6() {
     genius_6.setAttribute('src', 'picture/ginius6.png');
     genius_6.setAttribute('width', '15%');
     genius_6.setAttribute('height', '15%');
-
+   
 
 }
 
-img_genius_1.addEventListener('mouseenter', mouse_in_1);
-img_genius_2.addEventListener('mouseenter', mouse_in_2);
-img_genius_3.addEventListener('mouseenter', mouse_in_3);
-img_genius_4.addEventListener('mouseenter', mouse_in_4);
-img_genius_5.addEventListener('mouseenter', mouse_in_5);
-img_genius_6.addEventListener('mouseenter', mouse_in_6);
+function mouse_out_findNow(){
+    var find_now = img_findNow;
+    find_now.setAttribute('src','picture/un-find now.png');
+}
 
-img_genius_1.addEventListener('mouseleave', mouse_out_1);
-img_genius_2.addEventListener('mouseleave', mouse_out_2);
-img_genius_3.addEventListener('mouseleave', mouse_out_3);
-img_genius_4.addEventListener('mouseleave', mouse_out_4);
-img_genius_5.addEventListener('mouseleave', mouse_out_5);
-img_genius_6.addEventListener('mouseleave', mouse_out_6);
-
+function mouse_out_click(){
+    // var find_now = img_findNow;
+    // find_now.setAttribute('src','picture/un-find now.png');
+    // genius_6.setAttribute('width','15%');
+    // genius_6.setAttribute('height','15%');
+}
+   
 // Get the button:
 let mybutton = document.getElementById("myBtn");
 
@@ -245,3 +240,21 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+img_genius_1.addEventListener('mouseenter',mouse_in_1);
+img_genius_2.addEventListener('mouseenter',mouse_in_2);
+img_genius_3.addEventListener('mouseenter',mouse_in_3);
+img_genius_4.addEventListener('mouseenter',mouse_in_4);
+img_genius_5.addEventListener('mouseenter',mouse_in_5);
+img_genius_6.addEventListener('mouseenter',mouse_in_6);
+img_findNow.addEventListener('mouseenter',mouse_in_findNow);
+
+img_genius_1.addEventListener('mouseleave',mouse_out_1);
+img_genius_2.addEventListener('mouseleave',mouse_out_2);
+img_genius_3.addEventListener('mouseleave',mouse_out_3);
+img_genius_4.addEventListener('mouseleave',mouse_out_4);
+img_genius_5.addEventListener('mouseleave',mouse_out_5);
+img_genius_6.addEventListener('mouseleave',mouse_out_6);
+img_findNow.addEventListener('mouseleave',mouse_out_findNow);
+
+img_findNow.addEventListener('click',mouse_out_click);
