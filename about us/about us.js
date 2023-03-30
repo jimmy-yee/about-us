@@ -133,6 +133,18 @@ function mouse_out_news(){
     news.setAttribute('src','picture/un-news.png');
 }
 
+function mouse_out_equipment(){
+    var equipment = img_equipment;
+    equipment.setAttribute('src','picture/un-equipment.png');
+}
+function mouse_out_together(){
+    var together = img_together;
+    together.setAttribute('src','picture/un-together.png' );
+}
+function mouse_out_connect(){
+    var connect = img_connect;
+    connect.setAttribute('src','picture/un-connect us.png');
+}
 function mouse_out_1(){
     var arrow = document.querySelector(".arrow_1");
     var short_1 = document.querySelector(".short_1");
@@ -290,4 +302,9 @@ img_equipment.addEventListener('mouseenter', mouse_in_equipment);
 img_together.addEventListener('mouseenter', mouse_in_together);
 img_connect.addEventListener('mouseenter', mouse_in_connect);
 img_news.addEventListener('mouseleave' ,mouse_out_news);
+img_equipment.addEventListener('mouseleave' ,mouse_out_equipment);
+img_together.addEventListener('mouseleave' ,mouse_out_together);
+img_connect.addEventListener('mouseleave', mouse_out_connect);
+
+
 
