@@ -351,3 +351,44 @@ body {
 } */
 
 /* hihi from mark */
+
+.about_us{
+  position: absolute;
+  left: 55%;
+  top: 2%;
+  width: 8%;
+  height: 1.5%;
+  z-index: 2;
+}
+.news{
+  position: absolute;
+  left: 64%;
+  top: 2%;
+  width: 8%;
+  height: 1.5%;
+  z-index: 2;
+}
+.equipment{
+  position: absolute;
+  left: 73%;
+  top: 2%;
+  width: 8%;
+  height: 1.5%;
+  z-index: 2;
+}
+.together{
+  position: absolute;
+  left: 82%;
+  top: 2%;
+  width: 8%;
+  height: 1.5%;
+  z-index: 2;
+}
+.connect{
+  position: absolute;
+  left: 91%;
+  top: 2%;
+  width: 8%;
+  height: 1.5%;
+  z-index: 2;
+}
