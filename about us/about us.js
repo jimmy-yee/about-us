@@ -9,6 +9,7 @@ var img_news = document.querySelector(".news");
 var img_equipment = document.querySelector(".equipment");
 var img_together = document.querySelector(".together");
 var img_connect = document.querySelector(".connect");
+var img_findNow = document.querySelector(".find_now");
 
 
 
@@ -218,16 +219,18 @@ function mouse_out_6(){
 
 }
 
+function mouse_in_findNow(){
+    var find_now = img_findNow;
+    find_now.setAttribute('src','picture/find now.png');
+}
 function mouse_out_findNow(){
     var find_now = img_findNow;
     find_now.setAttribute('src','picture/un-find now.png');
 }
 
 function mouse_out_click(){
-    // var find_now = img_findNow;
-    // find_now.setAttribute('src','picture/un-find now.png');
-    // genius_6.setAttribute('width','15%');
-    // genius_6.setAttribute('height','15%');
+    document.body.scrollTop = 2000; // For Safari
+    document.documentElement.scrollTop = 2000; // For Chrome, Firefox, IE and Opera
 }
    
 // Get the button:
@@ -256,6 +259,7 @@ img_genius_3.addEventListener('mouseenter',mouse_in_3);
 img_genius_4.addEventListener('mouseenter',mouse_in_4);
 img_genius_5.addEventListener('mouseenter',mouse_in_5);
 img_genius_6.addEventListener('mouseenter',mouse_in_6);
+img_findNow.addEventListener('mouseenter',mouse_in_findNow);
 
 img_genius_1.addEventListener('mouseleave',mouse_out_1);
 img_genius_2.addEventListener('mouseleave',mouse_out_2);
@@ -263,5 +267,8 @@ img_genius_3.addEventListener('mouseleave',mouse_out_3);
 img_genius_4.addEventListener('mouseleave',mouse_out_4);
 img_genius_5.addEventListener('mouseleave',mouse_out_5);
 img_genius_6.addEventListener('mouseleave',mouse_out_6);
+img_findNow.addEventListener('mouseleave',mouse_out_findNow);
+img_findNow.addEventListener('click',mouse_out_click);
 
 img_news.addEventListener('mouseenter' ,mouse_in_news);
+
